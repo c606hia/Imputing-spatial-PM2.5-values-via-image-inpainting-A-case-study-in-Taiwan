@@ -3,6 +3,7 @@
 
 ## Setup  
 Running on Ubuntu 18.04.6 LTS with Python 3.9.12
+## Packages
 ```
 pip install torch==1.12.0
 pip install torchmetrics==0.11.4
@@ -15,6 +16,19 @@ pip install maskedtensor==0.10.0
 pip install rich==13.3.5
 pip install scikit-learn==1.2.2
 ```
+## Data
+[data link](https://drive.google.com/file/d/1Dgm9rdVpZBIXb58lBcONK8Icj2m-2wAN/view?usp=sharing)  
+
+點資訊(M,D,H,Lon,Lat,PM2.5)  
+* a_202101.csv
+* E_202101.csv
+ 
+圖資訊  
+* a_by_loc -> airbox 站點圖
+* by_loc_main -> EPA 站點圖
+* e+a_mask_gt_main -> EPA+airbox kriging結果
+* mask -> 台灣地區遮罩
+
 ## How to run RFR
 
 ```
@@ -35,15 +49,4 @@ switch the dataset in run.py to change the random setting
 * switch the RFRnet in model.py to change the batchnorm setting
 * bnoff -> cancel batchnorm
 
-## Data
-[data link](https://drive.google.com/file/d/1Dgm9rdVpZBIXb58lBcONK8Icj2m-2wAN/view?usp=sharing)  
 
-點資訊(M,D,H,Lon,Lat,PM2.5)  
-* a_202101.csv
-* E_202101.csv
- 
-圖資訊  
-* a_by_loc -> airbox 站點圖
-* by_loc_main -> EPA 站點圖
-* e+a_mask_gt_main -> EPA+airbox kriging結果
-* mask -> 台灣地區遮罩
