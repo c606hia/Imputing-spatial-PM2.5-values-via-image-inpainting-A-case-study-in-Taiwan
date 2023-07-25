@@ -23,12 +23,12 @@ class Dataset(torch.utils.data.Dataset):
         self.data_names_em = []
         self.train = training
         # airbox
-        self.patha = './data/a_by_loc'
+        self.patha = './data/airbox_data/a_by_loc'
         # EPA-k and EPA-k mask
         self.pathe = './data/e+a_mask_gt_main'
         self.path_em = './data/mask'
         # pure EPA
-        self.pathe_77 = './data/by_loc_main'
+        self.pathe_77 = './data/EPA_data/by_loc_main'
         # if self.train:
         for i in os.listdir(f'./{self.patha}'):
             if int(i.split('_')[1])<32:
