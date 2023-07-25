@@ -16,10 +16,11 @@ bnoff -> cancel batchnorm
 
 # Data:
 點資訊(M,D,H,Lon,Lat,PM2.5):  
-a_202101.csv
-E_202101.csv
+* a_202101.csv
+* E_202101.csv
+ 
 圖資訊:  
-a_by_loc -> airbox 站點圖
-by_loc_main -> EPA 站點圖
-e+a_mask_gt_main -> EPA+airbox kriging結果
-mask -> 台灣地區遮罩
+* a_by_loc -> airbox 站點圖
+* by_loc_main -> EPA 站點圖
+* e+a_mask_gt_main -> EPA+airbox kriging結果
+* mask -> 台灣地區遮罩
