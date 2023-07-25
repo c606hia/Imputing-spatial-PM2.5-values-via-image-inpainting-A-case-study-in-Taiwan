@@ -26,7 +26,7 @@ class Dataset(torch.utils.data.Dataset):
         self.patha = './data/airbox_data/a_by_loc'
         # EPA-k and EPA-k mask
         self.pathe = './data/e+a_mask_gt_main'
-        self.path_em = './data//mask'
+        self.path_em = './data/mask'
         # pure EPA
         self.pathe_77 = './data/EPA_data/by_loc_main'
         for i in os.listdir(f'./{self.patha}'):
