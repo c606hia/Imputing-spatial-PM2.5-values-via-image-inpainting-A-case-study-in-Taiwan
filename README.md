@@ -1,8 +1,7 @@
 # Imputing-spatial-PM2.5-values-via-image-inpainting-A-case-study-in-Taiwan
 透過圖像修補技術補空間中的 PM2.5 值：以台灣為例
 
-## How to run RFR
-### Setup  
+## Setup  
 Running on Ubuntu 18.04.6 LTS with Python 3.9.12
 ```
 pip install torch==1.12.0
@@ -16,8 +15,17 @@ pip install maskedtensor==0.10.0
 pip install rich==13.3.5
 pip install scikit-learn==1.2.2
 ```
-* python run.py --model_path YOUR_MODEL_PATH_TO_LOAD --num_iters EPOCH_NUM --txt RESULT_FILE_NAME --batch_size YOUR_VATCH_SIZE --result_save_path IMAGE_SAVE_PATH --model_save_path WHERE_TO_SAVE_YOUR_MODEL
-* ADD -test IF YOU WANT RUN TEST DIRECTLY
+## How to run RFR
+
+```
+python run.py --model_path YOUR_MODEL_PATH_TO_LOAD --num_iters EPOCH_NUM --txt RESULT_FILE_NAME --batch_size YOUR_VATCH_SIZE --result_save_path IMAGE_SAVE_PATH --model_save_path WHERE_TO_SAVE_YOUR_MODEL
+```
+* ADD -test IF YOU WANT RUN TEST DIRECTLY  
+### Example  
+```
+python run.py --model_path ./example_path/g_10000.pth --num_iters 200 --txt example.txt --batch_size 1 --result_save_path example_path --model_save_path ./example_path
+```
+
 
 ## OTHER SETTING
 
