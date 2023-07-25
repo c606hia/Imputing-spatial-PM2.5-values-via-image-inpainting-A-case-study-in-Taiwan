@@ -3,16 +3,16 @@
 
 # How to run RFR:
 
-python run.py --model_path YOUR_MODEL_PATH_TO_LOAD --num_iters EPOCH_NUM --txt RESULT_FILE_NAME --batch_size YOUR_VATCH_SIZE --result_save_path IMAGE_SAVE_PATH --model_save_path WHERE_TO_SAVE_YOUR_MODEL
-ADD -test IF YOU WANT RUN TEST DIRECTLY
+* python run.py --model_path YOUR_MODEL_PATH_TO_LOAD --num_iters EPOCH_NUM --txt RESULT_FILE_NAME --batch_size YOUR_VATCH_SIZE --result_save_path IMAGE_SAVE_PATH --model_save_path WHERE_TO_SAVE_YOUR_MODEL
+* ADD -test IF YOU WANT RUN TEST DIRECTLY
 
 # OTHER SETTING:
 
-swith the dataset in run.py to change the random setting
-ar -> random in all time
-sr -> random in start
-switch the RFRnet in model.py to change the batchnorm setting
-bnoff -> cancel batchnorm
+switch the dataset in run.py to change the random setting
+* ar -> random in all time
+* sr -> random in start
+* switch the RFRnet in model.py to change the batchnorm setting
+* bnoff -> cancel batchnorm
 
 # Data:
 點資訊(M,D,H,Lon,Lat,PM2.5):  
