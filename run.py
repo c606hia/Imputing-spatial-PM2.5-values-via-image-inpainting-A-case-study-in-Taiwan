@@ -1,7 +1,7 @@
 import argparse
 import os
 from model import RFRNetModel
-from dataset2 import Dataset
+from dataset2_ar import Dataset
 from torch.utils.data import DataLoader
 from rich.console import Console
 from torch.utils.data.distributed import DistributedSampler
