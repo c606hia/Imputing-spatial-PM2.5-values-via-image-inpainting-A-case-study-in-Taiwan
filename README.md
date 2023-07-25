@@ -15,7 +15,7 @@ switch the dataset in run.py to change the random setting
 * bnoff -> cancel batchnorm
 
 # Data:
-[data link]([docs/CONTRIBUTING.md](https://drive.google.com/file/d/1Dgm9rdVpZBIXb58lBcONK8Icj2m-2wAN/view?usp=sharing))  
+[data link](https://drive.google.com/file/d/1Dgm9rdVpZBIXb58lBcONK8Icj2m-2wAN/view?usp=sharing)  
 
 點資訊(M,D,H,Lon,Lat,PM2.5):  
 * a_202101.csv
