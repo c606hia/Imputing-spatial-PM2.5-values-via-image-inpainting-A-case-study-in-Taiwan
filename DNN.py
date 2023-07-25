@@ -3,7 +3,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
 import numpy as np
-from dataset2 import Dataset
+from dataset2_dnn import Dataset
 from torch.utils.data import DataLoader
 import time
 from rich.table import Table
