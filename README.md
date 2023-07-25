@@ -27,7 +27,7 @@ python run.py --model_path ./example_path/g_10000.pth --num_iters 200 --txt exam
 ```
 
 
-## OTHER SETTING
+### OTHER SETTING
 
 switch the dataset in run.py to change the random setting
 * ar -> random in all time
