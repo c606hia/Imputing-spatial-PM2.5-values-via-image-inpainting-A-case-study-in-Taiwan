@@ -14,8 +14,8 @@ class Dataset(torch.utils.data.Dataset):
         super(Dataset, self).__init__()
         self.train = training
         if self.train:
-            self.patha = '../airbox_data/avg_by_hour/2021/a_202101.csv'
-            self.pathe = '../EPA_data/tide/E_202101.csv'
+            self.patha = './data/airbox_data/a_202101.csv'
+            self.pathe = './data/EPA_data/E_202101.csv'
             self.a = pd.read_csv(self.patha).dropna(axis=0)
             self.e = pd.read_csv(self.pathe)
         else:
