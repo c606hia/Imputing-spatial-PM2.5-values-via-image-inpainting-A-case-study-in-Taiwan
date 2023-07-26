@@ -19,8 +19,8 @@ class Dataset(torch.utils.data.Dataset):
             self.a = pd.read_csv(self.patha).dropna(axis=0)
             self.e = pd.read_csv(self.pathe)
         else:
-            self.patha = '../airbox_data/avg_by_hour/2021/a_202102.csv'
-            self.pathe = '../EPA_data/tide/E_202102.csv'
+            self.patha = './data/airbox_data/a_202102.csv'
+            self.pathe = './data/EPA_data/E_202102.csv'
             self.a = pd.read_csv(self.patha).dropna(axis=0)
             self.e = pd.read_csv(self.pathe)
     def __len__(self):
