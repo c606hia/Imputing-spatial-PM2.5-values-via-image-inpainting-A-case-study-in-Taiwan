@@ -22,13 +22,23 @@ Download the folder below and put it in the same folder as the program
 
 點資訊(M,D,H,Lon,Lat,PM2.5)  
 * a_202101.csv
-* E_202101.csv
- 
+* E_202101.csv  
+
+**data path**  
+*\data\airbox_data\a_202101.csv*  
+*\data\epa_data\E_202101.csv*  
+
 圖資訊  
 * a_by_loc -> airbox 站點圖
 * by_loc_main -> EPA 站點圖
 * e+a_mask_gt_main -> EPA+airbox kriging結果
 * mask -> 台灣地區遮罩
+
+**data path**  
+*\data\airbox_data\a_by_loc*  
+*\data\epa_data\by_loc_main*  
+*\data\e+a_mask_gt_main*  
+*\data\mask*  
 
 ## How to run RFR
 
