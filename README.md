@@ -43,11 +43,10 @@ python run.py --model_path ./example_path/g_10000.pth --num_iters 200 --txt exam
 
 
 ### OTHER SETTING
-
+switch the RFRnet in model.py to change the batchnorm setting
 switch the dataset in run.py to change the random setting
 * ar -> random in all time
 * sr -> random in start
-* switch the RFRnet in model.py to change the batchnorm setting
 * bnoff -> cancel batchnorm
 
 
