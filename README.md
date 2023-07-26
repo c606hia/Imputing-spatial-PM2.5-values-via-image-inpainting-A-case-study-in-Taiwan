@@ -17,8 +17,8 @@ pip install rich==13.3.5
 pip install scikit-learn==1.2.2
 ```
 ## Data  
-Extract the data below in the same folder as the program  
-[data link](https://drive.google.com/drive/folders/1MQE453kG5kYCPtkoJCseTk2JV9n_9Qj4?usp=sharing)  
+Download the folder below and put it in the same folder as the program  
+[data link](https://drive.google.com/drive/folders/15JnDxbVfnmEDptxKw6Z4EtfKVQ75JGtX?usp=sharing)  
 
 點資訊(M,D,H,Lon,Lat,PM2.5)  
 * a_202101.csv
