@@ -20,7 +20,7 @@ pip install scikit-learn==1.2.2
 Download the folder below and put it in the same folder as the program  
 [data link](https://drive.google.com/drive/folders/15JnDxbVfnmEDptxKw6Z4EtfKVQ75JGtX?usp=sharing)  
 
-點資訊(M,D,H,Lon,Lat,PM2.5)  
+點資訊(M,D,H,Lon,Lat,PM2.5)  -> **for DNN**  
 * a_202101.csv
 * E_202101.csv  
 
